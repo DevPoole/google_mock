@@ -1,0 +1,53 @@
+ul {
+	 font-family: 'Roboto', sans-serif;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+ul li {
+	display: block;
+	padding: 14px 16px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #222;
+	font-size: 13px;
+}
+
+ul li.left-nav {
+	text-align: left;
+	float: left;
+}
+
+ul li.right-nav {
+	text-align: right;
+	float: right;
+}
+
+.page-wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+.img-wrapper {
+	display: block;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.form-wrapper {
+	text-align: center;
+	margin-top: 2%;
+}
+
+input.search-box {
+	width: 50%;
+	box-sizing: border-box;
+	border-radius: 20px;
+	height: 40px;
+}
+
+.btn {
+	margin-top: 2%;
+}
